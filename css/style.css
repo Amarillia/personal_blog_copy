@@ -1,0 +1,55 @@
+body{
+	margin: 0 10% 0 10%;
+}
+
+h1, h2{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+nav ul li{
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+
+a{
+	text-decoration: none;
+	color: #000; 	
+}
+
+li a:focus,
+li a:hover,
+li a:active{
+	color: grey;
+}
+
+.info{
+	display: inline-flex;
+}
+section {
+	max-width: 50%;
+	padding: 0 5% 0 0;
+}
+
+
+section li{
+	padding: 0 10% 0 0;
+	list-style-type: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+.social_media{
+	float: right;
+	clear: all;
+}
